@@ -1,3 +1,4 @@
+import 'package:bmi/pages/bmiresult.dart';
 import 'package:bmi/pages/dashboard.dart';
 import 'package:bmi/pages/detailsscreen.dart';
 import 'package:bmi/pages/splashscreen.dart';
@@ -21,7 +22,9 @@ class MyApp extends StatelessWidget {
         "/": (context) => SplashScreen(),
         Routes.splashScreen: (context) => SplashScreen(),
         Routes.dashBoard: (context) => const DashBoard(),
-        Routes.detailsScreen: (context) => const DetailsScreen(userName: '')
+        Routes.detailsScreen: (context) => const DetailsScreen(userName: ''),
+        Routes.bmiResult: (context) =>
+            const BMIResult(name: "", age: 0, weight: 0, height: 0, gender: "")
       },
     );
   }

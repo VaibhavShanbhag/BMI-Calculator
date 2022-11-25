@@ -92,7 +92,8 @@ class _DashBoardState extends State<DashBoard> {
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(10))),
                               filled: true,
-                              fillColor: Color.fromRGBO(204, 244, 248, 1))),
+                              fillColor:
+                                  const Color.fromRGBO(204, 244, 248, 1))),
                       Container(
                         alignment: Alignment.centerRight,
                         margin: const EdgeInsets.only(top: 65),
